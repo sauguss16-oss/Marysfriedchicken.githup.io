@@ -1,0 +1,5 @@
+2026-01-22 16:10:27.860 [info] Iniciando el servidor microsoft/markitdown
+2026-01-22 16:10:27.861 [info] Estado de conexión: Iniciando
+2026-01-22 16:10:27.861 [info] Starting server from Remote extension host
+2026-01-22 16:10:27.922 [info] Estado de conexión: Iniciando
+2026-01-22 16:10:27.938 [info] Estado de conexión: Error spawn uvx ENOENT
