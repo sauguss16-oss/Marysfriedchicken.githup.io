@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mary's Fried Chicken | Sitio Oficial</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="top-header">
+            <img src="img/logo1.PNG" alt="Mary's Fried Chicken" class="main-logo">
+        </div>
+        <nav class="nav-tabs">
+            <button class="tab-link active" onclick="showTab(event, 'paquetes')">PAQUETES</button>
+            <button class="tab-link" onclick="showTab(event, 'solos')">PIEZAS</button>
+            <button class="tab-link" onclick="showTab(event, 'extras')">SNACKS</button>
+            <button class="tab-link" onclick="showTab(event, 'ubicaciones')">SUCURSALES</button>
+            <button class="tab-link" onclick="showTab(event, 'conocenos')">NOSOTROS</button>
+            <button class="tab-link" onclick="showTab(event, 'sugerencias')">SUGERENCIAS</button>
+        </nav>
+    </header>
+
+    <div class="main-container">
+
+        <section id="paquetes" class="tab-content active">
+            <h2 class="category-title">PAQUETES CON COMPLEMENTO</h2>
+            <div class="product-grid">
+                <div class="product-card"><img src="img/paquete1.PNG"><div class="p-info"><h3>Paquete 2 Pzas</h3><p>Puré o ensalada CH</p><span class="price">$70</span></div></div>
+                <div class="product-card"><img src="img/paquete2.PNG"><div class="p-info"><h3>Paquete 4 Pzas</h3><p>Puré y ensalada GR</p><span class="price">$120</span></div></div>
+                <div class="product-card"><img src="img/paquete3.PNG"><div class="p-info"><h3>Paquete 8 Pzas</h3><p>Puré y ensalada GR</p><span class="price">$240</span></div></div>
+                <div class="product-card"><img src="img/paquete4.PNG"><div class="p-info"><h3>Paquete 12 Pzas</h3><p>Puré y ensalada GR</p><span class="price">$325</span></div></div>
+                <div class="product-card"><img src="img/paquete5.PNG"><div class="p-info"><h3>Paquete 16 Pzas</h3><p>Puré y ensalada GR</p><span class="price">$430</span></div></div>
+                <div class="product-card"><img src="img/paquete6.PNG"><div class="p-info"><h3>Paquete 20 Pzas</h3><p>2 Purés y 2 ensaladas GR</p><span class="price">$540</span></div></div>
+            </div>
+        </section>
+
+        <section id="solos" class="tab-content">
+            <h2 class="category-title">PAQUETES SOLOS (KETCHUP/JALAPEÑO)</h2>
+            <div class="product-grid">
+                <div class="product-card"><img src="img/paquete1s.PNG"><div class="p-info"><h3>2 Pzas Solas</h3><span class="price">$55</span></div></div>
+                <div class="product-card"><img src="img/paquete2s.PNG"><div class="p-info"><h3>4 Pzas Solas</h3><span class="price">$100</span></div></div>
+                <div class="product-card"><img src="img/paquete3s.PNG"><div class="p-info"><h3>8 Pzas Solas</h3><span class="price">$185</span></div></div>
+                <div class="product-card"><img src="img/paquete4s.PNG"><div class="p-info"><h3>12 Pzas Solas</h3><span class="price">$275</span></div></div>
+                <div class="product-card"><img src="img/paquete5s.PNG"><div class="p-info"><h3>16 Pzas Solas</h3><span class="price">$370</span></div></div>
+                <div class="product-card"><img src="img/paquete6s.PNG"><div class="p-info"><h3>20 Pzas Solas</h3><span class="price">$460</span></div></div>
+            </div>
+            <h2 class="category-title">PIEZAS INDIVIDUALES</h2>
+            <div class="product-grid">
+                <div class="product-card"><img src="img/pechuga.PNG"><div class="p-info"><h3>Pechuga</h3><span class="price">$31</span></div></div>
+                <div class="product-card"><img src="img/pierna.PNG"><div class="p-info"><h3>Pierna</h3><span class="price">$27</span></div></div>
+                <div class="product-card"><img src="img/muslo.PNG"><div class="p-info"><h3>Muslo</h3><span class="price">$27</span></div></div>
+                <div class="product-card"><img src="img/ala.PNG"><div class="p-info"><h3>Ala</h3><span class="price">$19</span></div></div>
+            </div>
+        </section>
+
+        <section id="extras" class="tab-content">
+            <h2 class="category-title">NUESTROS SNACKS</h2>
+            <div class="product-grid">
+                <div class="product-card"><img src="img/tenders.PNG"><div class="p-info"><h3>Tenders (300g)</h3><span class="price">$80</span></div></div>
+                <div class="product-card"><img src="img/crispy.PNG"><div class="p-info"><h3>Crispy Tender (250g)</h3><span class="price">$80</span></div></div>
+                <div class="product-card"><img src="img/palomitas.PNG"><div class="p-info"><h3>Palomitas (250g)</h3><span class="price">$60</span></div></div>
+                <div class="product-card"><img src="img/nuggets.PNG"><div class="p-info"><h3>Nuggets (250g)</h3><span class="price">$50</span></div></div>
+                <div class="product-card"><img src="img/papas.PNG"><div class="p-info"><h3>Papas FR (300g)</h3><span class="price">$45</span></div></div>
+            </div>
+            <h2 class="category-title">COMPLEMENTOS</h2>
+            <div class="product-grid">
+                <div class="card-small"><img src="img/pureg.PNG"><h4>Puré Grande</h4><p>$30</p></div>
+                <div class="card-small"><img src="img/purec.PNG"><h4>Puré Chico</h4><p>$20</p></div>
+                <div class="card-small"><img src="img/ensaladag.PNG"><h4>Ensalada Grande</h4><p>$30</p></div>
+                <div class="card-small"><img src="img/ensaladac.PNG"><h4>Ensalada Chico</h4><p>$20</p></div>
+            </div>
+        </section>
+
+        <section id="ubicaciones" class="tab-content">
+            <h2 class="category-title">UBICACIONES</h2>
+            <div class="sucursal-list">
+                <div class="sucursal-card"><img src="img/buesu.PNG"><div class="suc-info"><h3>BUENAVISTA</h3><div class="btn-group"><a href="https://wa.me/525577479755" class="btn-wa"><i class="fab fa-whatsapp"></i> WhatsApp</a><a href="https://maps.app.goo.gl/..." class="btn-map"><i class="fas fa-map-marker-alt"></i> Mapa</a></div></div></div>
+                <div class="sucursal-card"><img src="img/tessu.PNG"><div class="suc-info"><h3>EL TESORO</h3><div class="btn-group"><a href="https://wa.me/525572993603" class="btn-wa"><i class="fab fa-whatsapp"></i> WhatsApp</a><a href="https://maps.app.goo.gl/..." class="btn-map"><i class="fas fa-map-marker-alt"></i> Mapa</a></div></div></div>
+                <div class="sucursal-card"><img src="img/lopsu.PNG"><div class="suc-info"><h3>LÓPEZ</h3><div class="btn-group"><a href="https://wa.me/525575412265" class="btn-wa"><i class="fab fa-whatsapp"></i> WhatsApp</a><a href="https://maps.app.goo.gl/..." class="btn-map"><i class="fas fa-map-marker-alt"></i> Mapa</a></div></div></div>
+                <div class="sucursal-card"><img src="img/izcsu.PNG"><div class="suc-info"><h3>IZCALLI</h3><div class="btn-group"><a href="https://wa.me/525538382437" class="btn-wa"><i class="fab fa-whatsapp"></i> WhatsApp</a><a href="https://maps.app.goo.gl/..." class="btn-map"><i class="fas fa-map-marker-alt"></i> Mapa</a></div></div></div>
+                <div class="sucursal-card"><img src="img/teqsu.PNG"><div class="suc-info"><h3>TEQUEX</h3><div class="btn-group"><a href="https://wa.me/525616905039" class="btn-wa"><i class="fab fa-whatsapp"></i> WhatsApp</a><a href="https://maps.app.goo.gl/..." class="btn-map"><i class="fas fa-map-marker-alt"></i> Mapa</a></div></div></div>
+            </div>
+        </section>
+
+        <section id="conocenos" class="tab-content">
+            <h2 class="category-title">NUESTRA HISTORIA</h2>
+            <div class="about-container">
+                <img src="img/logo_personaje.png" class="about-logo">
+                <p>En <strong>Mary's Fried Chicken</strong>, nos apasiona el sabor. Utilizamos ingredientes frescos y nuestra receta secreta para entregarte el pollo más crujiente de la región.</p>
+                <div class="galeria-simple">
+                    <img src="img/galeria1.jpg" alt="Local">
+                    <img src="img/galeria2.jpg" alt="Cocina">
+                </div>
+            </div>
+        </section>
+
+        <section id="sugerencias" class="tab-content">
+            <h2 class="category-title">TU OPINIÓN CUENTA</h2>
+            <div class="form-container">
+                <p>¿Tienes alguna sugerencia o comentario? ¡Escríbenos!</p>
+                <form action="#">
+                    <input type="text" placeholder="Nombre completo" required>
+                    <input type="tel" placeholder="WhatsApp / Teléfono" required>
+                    <select>
+                        <option value="">Selecciona Sucursal</option>
+                        <option>Buenavista</option>
+                        <option>El Tesoro</option>
+                        <option>López</option>
+                        <option>Izcalli</option>
+                        <option>Tequex</option>
+                    </select>
+                    <textarea rows="5" placeholder="Escribe tu comentario aquí..." required></textarea>
+                    <button type="submit" class="btn-submit">ENVIAR COMENTARIO</button>
+                </form>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="social-footer">
+            <a href="https://facebook.com/..." target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com/..." target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://tiktok.com/..." target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+        <p>© 2024 Mary's Fried Chicken | Sabor que Cruje</p>
+    </footer>
+
+    <script>
+        function showTab(evt, tabId) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) { tabcontent[i].style.display = "none"; }
+            tablinks = document.getElementsByClassName("tab-link");
+            for (i = 0; i < tablinks.length; i++) { tablinks[i].className = tablinks[i].className.replace(" active", ""); }
+            document.getElementById(tabId).style.display = "block";
+            evt.currentTarget.className += " active";
+            window.scrollTo(0,0);
+        }
+    </script>
+</body>
+</html>
